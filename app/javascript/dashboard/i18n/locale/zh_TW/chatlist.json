@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "正在進行的\n",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "打開"
       },
-      {
-        "TEXT": "已解決",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "已解決"
       },
-      {
-        "TEXT": "待處理",
-        "VALUE": "待處理"
+      "pending": {
+        "TEXT": "待處理"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "圖片訊息"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "聲音訊息"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "影片訊息"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "附件"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "位置"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "分享了一個網址"
       }
     },

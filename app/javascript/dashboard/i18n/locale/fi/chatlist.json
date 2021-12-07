@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Avoin",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Avaa"
       },
-      {
-        "TEXT": "Ratkaistu",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Ratkaistu"
       },
-      {
-        "TEXT": "Pending",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "Pending"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Kuvaviesti"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Ääniviesti"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Videoviesti"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "Liite"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Sijainti"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "on jakanut URL-osoitteen"
       }
     },

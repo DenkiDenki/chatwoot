@@ -15,18 +15,6 @@ class ActionCableConnector extends BaseActionCableConnector {
     };
   }
 
-  static refreshConnector = pubsubToken => {
-    if (!pubsubToken || window.chatwootPubsubToken === pubsubToken) {
-      return;
-    }
-    window.chatwootPubsubToken = pubsubToken;
-    window.actionCable.disconnect();
-    window.actionCable = new ActionCableConnector(
-      window.WOOT_WIDGET,
-      window.chatwootPubsubToken
-    );
-  };
-
   onStatusChange = data => {
     this.app.$store.dispatch('conversationAttributes/update', data);
   };
@@ -55,7 +43,10 @@ class ActionCableConnector extends BaseActionCableConnector {
     ActionCableConnector.refreshConnector(pubsubToken);
   };
 
-  onTypingOn = () => {
+  onTypingOn = data => {
+    if (data.is_private) {
+      return;
+    }
     this.clearTimer();
     this.app.$store.dispatch('conversation/toggleAgentTyping', {
       status: 'on',
@@ -84,8 +75,5 @@ class ActionCableConnector extends BaseActionCableConnector {
     }, 30000);
   };
 }
-
-export const refreshActionCableConnector =
-  ActionCableConnector.refreshConnector;
 
 export default ActionCableConnector;

@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "פתח",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "פתח"
       },
-      {
-        "TEXT": "נפתרה",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "נפתרה"
       },
-      {
-        "TEXT": "ממתין ל",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "ממתין ל"
       },
-      {
-        "TEXT": "נימנום",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "נימנום"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "הודעת תמונה"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "הודעות קוליות"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "הודעות וידאו"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "קובץ מצורף"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "מיקום"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "שיתף קישור"
       }
     },

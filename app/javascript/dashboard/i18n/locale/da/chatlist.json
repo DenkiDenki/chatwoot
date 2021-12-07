@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Åbn",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Åbn"
       },
-      {
-        "TEXT": "Løst",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Løst"
       },
-      {
-        "TEXT": "Pending",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "Pending"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Billedbesked"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Lydbesked"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Video besked"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "Fil Vedhæftning"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Lokation"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "har delt en URL"
       }
     },

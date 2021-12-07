@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Apri",
-        "VALUE": "Aperto"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Apri"
       },
-      {
-        "TEXT": "Risolti",
-        "VALUE": "risolto"
+      "resolved": {
+        "TEXT": "Risolti"
       },
-      {
-        "TEXT": "In Attesa",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "In Attesa"
       },
-      {
-        "TEXT": "Posticipato",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Posticipato"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Messaggio immagine"
       },
       "audio": {
-        "ICON": "-quantità-alto",
         "CONTENT": "Messaggio audio"
       },
       "video": {
-        "ICON": "videocam",
         "CONTENT": "Messaggio video"
       },
       "file": {
-        "ICON": "e-documento",
         "CONTENT": "File Allegato"
       },
       "location": {
-        "ICON": "Posizione-ios",
         "CONTENT": "Localizzazione"
       },
       "fallback": {
-        "ICON": "e-link",
         "CONTENT": "ha condiviso un url"
       }
     },

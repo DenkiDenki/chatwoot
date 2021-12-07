@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Megnyitás",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Megnyitás"
       },
-      {
-        "TEXT": "Megoldva",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Megoldva"
       },
-      {
-        "TEXT": "Pending",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "Pending"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Képüzenet"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Hangüzenet"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Videoüzenet"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "Csatolt file"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Hely"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "megosztott URL-t tartalmaz"
       }
     },

@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Açık",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Açık"
       },
-      {
-        "TEXT": "Çözüldü",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Çözüldü"
       },
-      {
-        "TEXT": "Bekliyor",
-        "VALUE": "bekliyor"
+      "pending": {
+        "TEXT": "Bekliyor"
       },
-      {
-        "TEXT": "Susturuldu",
-        "VALUE": "susturuldu"
+      "snoozed": {
+        "TEXT": "Susturuldu"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Görsel mesaj"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Sesli mesaj"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Video mesajı"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "Dosya eklentisi"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Yer"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "bir url paylaştı"
       }
     },

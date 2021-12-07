@@ -27,7 +27,8 @@
     }
 
     .modal-image {
-      max-width: 85%;
+      max-height: 90%;
+      max-width: 90%;
     }
 
     .modal-video {
@@ -92,7 +93,7 @@
 
     .status--filter {
       @include padding($zero null $zero $space-normal);
-      @include margin($space-smaller $space-slab $zero $zero);
+      @include margin($zero);
       background-color: $color-background-light;
       border: 1px solid $color-border;
       float: right;

@@ -34,6 +34,7 @@ import Spinner from 'shared/components/Spinner.vue';
 import Thumbnail from 'dashboard/components/widgets/Thumbnail.vue';
 import EmptyState from 'dashboard/components/widgets/EmptyState.vue';
 import timeMixin from 'dashboard/mixins/time';
+import FluentIcon from 'shared/components/FluentIcon/DashboardIcon';
 
 export default {
   components: {
@@ -178,12 +179,14 @@ export default {
         {
           field: 'company',
           key: 'company',
+          sortBy: this.sortConfig.company_name || '',
           title: this.$t('CONTACTS_PAGE.LIST.TABLE_HEADER.COMPANY'),
           align: 'left',
         },
         {
           field: 'city',
           key: 'city',
+          sortBy: this.sortConfig.city || '',
           title: this.$t('CONTACTS_PAGE.LIST.TABLE_HEADER.CITY'),
           align: 'left',
         },
@@ -192,6 +195,7 @@ export default {
           key: 'country',
           title: this.$t('CONTACTS_PAGE.LIST.TABLE_HEADER.COUNTRY'),
           align: 'left',
+          sortBy: this.sortConfig.country || '',
           renderBodyCell: ({ row }) => {
             if (row.country) {
               return (
@@ -225,7 +229,7 @@ export default {
                         rel="noopener noreferrer nofollow"
                         href={`https://${profile}.com/${profiles[profile]}`}
                       >
-                        <i class={`ion-social-${profile}`} />
+                        <FluentIcon icon={`brand-${profile}`} />
                       </a>
                     )
                 )}

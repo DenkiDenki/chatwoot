@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "열기",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "열기"
       },
-      {
-        "TEXT": "해결됨",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "해결됨"
       },
-      {
-        "TEXT": "Pending",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "Pending"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "사진 메시지"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "음성 메시지"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "영상 메시지"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "파일 첨부"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "장소"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "URL을 공유함"
       }
     },

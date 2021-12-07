@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Otevřít",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Otevřít"
       },
-      {
-        "TEXT": "Vyřešeno",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Vyřešeno"
       },
-      {
-        "TEXT": "Čekající",
-        "VALUE": "čekající"
+      "pending": {
+        "TEXT": "Čekající"
       },
-      {
-        "TEXT": "Odložené",
-        "VALUE": "odložené"
+      "snoozed": {
+        "TEXT": "Odložené"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Zpráva obrázku"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Zvuková zpráva"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Video zpráva"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "Přílohu souboru"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Poloha"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "sdílel URL"
       }
     },

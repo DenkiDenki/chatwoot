@@ -14,6 +14,7 @@ Metrics/ClassLength:
     - 'app/mailers/conversation_reply_mailer.rb'
     - 'app/models/message.rb'
     - 'app/builders/messages/facebook/message_builder.rb'
+    - 'app/controllers/api/v1/accounts/contacts_controller.rb'
 RSpec/ExampleLength:
   Max: 25
 Style/Documentation:
@@ -56,7 +57,7 @@ Metrics/BlockLength:
     - db/schema.rb
 Metrics/ModuleLength:
   Exclude:
-    - lib/woot_message_seeder.rb
+    - lib/seeders/message_seeder.rb
 Rails/ApplicationController:
   Exclude:
     - 'app/controllers/api/v1/widget/messages_controller.rb'

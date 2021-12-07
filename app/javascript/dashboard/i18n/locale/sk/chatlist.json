@@ -38,47 +38,37 @@
         "COUNT_KEY": "allCount"
       }
     ],
-    "CHAT_STATUS_ITEMS": [
-      {
-        "TEXT": "Open",
-        "VALUE": "open"
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Open"
       },
-      {
-        "TEXT": "Resolved",
-        "VALUE": "resolved"
+      "resolved": {
+        "TEXT": "Resolved"
       },
-      {
-        "TEXT": "Pending",
-        "VALUE": "pending"
+      "pending": {
+        "TEXT": "Pending"
       },
-      {
-        "TEXT": "Snoozed",
-        "VALUE": "snoozed"
+      "snoozed": {
+        "TEXT": "Snoozed"
       }
-    ],
+    },
     "ATTACHMENTS": {
       "image": {
-        "ICON": "ion-image",
         "CONTENT": "Picture message"
       },
       "audio": {
-        "ICON": "ion-volume-high",
         "CONTENT": "Audio message"
       },
       "video": {
-        "ICON": "ion-ios-videocam",
         "CONTENT": "Video message"
       },
       "file": {
-        "ICON": "ion-document",
         "CONTENT": "File Attachment"
       },
       "location": {
-        "ICON": "ion-ios-location",
         "CONTENT": "Location"
       },
       "fallback": {
-        "ICON": "ion-link",
         "CONTENT": "has shared a url"
       }
     },
